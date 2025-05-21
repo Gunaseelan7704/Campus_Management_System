@@ -1,0 +1,22 @@
+.home-body {
+    background-image: url('homebg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 85.5vh;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    padding-top: 20px; 
+}
+
+.title {
+    width: fit-content;
+    background-color: #b34403bd;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 10px; 
+}

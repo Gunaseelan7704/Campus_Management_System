@@ -1,0 +1,59 @@
+.create-assignment {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-assignment h2 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .create-assignment .error {
+    color: #e74c3c;
+    margin-bottom: 15px;
+  }
+  
+  .create-assignment .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .create-assignment label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #34495e;
+  }
+  
+  .create-assignment input,
+  .create-assignment textarea,
+  .create-assignment select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .create-assignment textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  .btn-submit {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .btn-submit:hover {
+    background: #27ae60;
+  }

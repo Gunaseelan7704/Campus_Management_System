@@ -1,0 +1,54 @@
+.notices-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .notices-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .notices-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .notice-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notice-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .notice-card p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .notice-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  .btn-create {
+    background: #2ecc71;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .btn-create:hover {
+    background: #27ae60;
+  }
